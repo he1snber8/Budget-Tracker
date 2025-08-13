@@ -1,0 +1,1 @@
+using BudgetTracker.DTO;namespace BudgetTracker.Services{public interface IRecommendationService{object Suggest(BudgetRecommendationRequest req);}}
