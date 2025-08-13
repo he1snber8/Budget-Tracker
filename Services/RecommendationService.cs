@@ -1,0 +1,1 @@
+using BudgetTracker.DTO;namespace BudgetTracker.Services{public class RecommendationService:IRecommendationService{public object Suggest(BudgetRecommendationRequest req){var save=req.Income>0?req.Income*0.1m:0m;return new{tip="Allocate 10% to savings.",estimatedMonthlySave=save};}}}
